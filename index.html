@@ -40,7 +40,7 @@
 
         /* Slide 1 - Photo Introduction */
         .slide-1 {
-            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            background: linear-gradient(135deg, #ffe0f0 0%, #ffc0e0 100%);
         }
 
         .slide-1 .content {
@@ -59,34 +59,17 @@
 
         .slide-1 h1 {
             font-size: 3rem;
-            color: #8b4789;
+            color: #d946a6;
             font-style: italic;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
 
-        /* Slide 2 - Opening Message */
+        /* Slide 2 - Breakfast Date */
         .slide-2 {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            background: linear-gradient(135deg, #fff5f9 0%, #ffe5f1 100%);
         }
 
         .slide-2 .content {
-            text-align: center;
-            max-width: 700px;
-        }
-
-        .slide-2 h2 {
-            font-size: 2.5rem;
-            color: #d946a6;
-            line-height: 1.5;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-        }
-
-        /* Slide 3 - Breakfast Date */
-        .slide-3 {
-            background: linear-gradient(135deg, #fff0f0 0%, #ffd9e8 100%);
-        }
-
-        .slide-3 .content {
             text-align: center;
         }
 
@@ -94,7 +77,7 @@
             background: white;
             padding: 3rem;
             border-radius: 30px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            box-shadow: 0 20px 60px rgba(219, 39, 119, 0.15);
             max-width: 500px;
             border-left: 8px solid #ec4899;
         }
@@ -116,32 +99,12 @@
             line-height: 1.6;
         }
 
-        /* Slide 4 - Padel Adventure */
-        .slide-4 {
-            background: linear-gradient(135deg, #e0f7e0 0%, #d4f1f4 100%);
+        /* Slide 3 - The Question */
+        .slide-3 {
+            background: linear-gradient(135deg, #ffd9e8 0%, #ffc4dd 100%);
         }
 
-        .slide-4 .card {
-            border-left-color: #10b981;
-        }
-
-        .slide-4 h3 {
-            color: #059669;
-        }
-
-        .card-note {
-            font-size: 1.2rem;
-            color: #6b7280;
-            font-style: italic;
-            margin-top: 1rem;
-        }
-
-        /* Slide 5 - The Question */
-        .slide-5 {
-            background: linear-gradient(135deg, #ffd1dc 0%, #ffb6c1 100%);
-        }
-
-        .slide-5 .content {
+        .slide-3 .content {
             text-align: center;
             max-width: 600px;
         }
@@ -157,14 +120,14 @@
             50% { transform: scale(1.1); }
         }
 
-        .slide-5 h2 {
+        .slide-3 h2 {
             font-size: 4rem;
             color: #db2777;
             line-height: 1.3;
             text-shadow: 3px 3px 6px rgba(0,0,0,0.1);
         }
 
-        .slide-5 p {
+        .slide-3 p {
             font-size: 1.5rem;
             color: #374151;
             margin-top: 2rem;
@@ -190,18 +153,18 @@
         }
 
         .yes-button {
-            background: linear-gradient(135deg, #10b981, #059669);
+            background: #ec1b77;
             color: white;
         }
 
         .yes-button:hover {
             transform: scale(1.1);
-            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4);
+            box-shadow: 0 15px 40px rgba(236, 27, 119, 0.4);
         }
 
         .no-button {
-            background: linear-gradient(135deg, #ef4444, #dc2626);
-            color: white;
+            background: #e8e8e8;
+            color: #6b7280;
             position: relative;
             transition: all 0.2s ease;
         }
@@ -210,13 +173,13 @@
             transform: scale(1.05);
         }
 
-        /* Slide 6 - The End */
-        .slide-6 {
-            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+        /* Slide 4 - The End */
+        .slide-4 {
+            background: linear-gradient(135deg, #ffe0f0 0%, #ffb3d9 100%);
             position: relative;
         }
 
-        .slide-6 .content {
+        .slide-4 .content {
             text-align: center;
             max-width: 700px;
             position: relative;
@@ -232,14 +195,14 @@
             pointer-events: none;
         }
 
-        .slide-6 h2 {
+        .slide-4 h2 {
             font-size: 3.5rem;
-            color: #d63031;
+            color: #d946a6;
             margin-bottom: 2rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
 
-        .slide-6 p {
+        .slide-4 p {
             font-size: 1.8rem;
             color: #2d3436;
             line-height: 1.6;
@@ -307,10 +270,6 @@
                 font-size: 2rem;
             }
             
-            .slide-2 h2 {
-                font-size: 1.8rem;
-            }
-            
             .card {
                 padding: 2rem;
             }
@@ -323,15 +282,15 @@
                 font-size: 1.2rem;
             }
             
-            .slide-5 h2 {
+            .slide-3 h2 {
                 font-size: 2.5rem;
             }
             
-            .slide-6 h2 {
+            .slide-4 h2 {
                 font-size: 2.5rem;
             }
             
-            .slide-6 p {
+            .slide-4 p {
                 font-size: 1.3rem;
             }
 
@@ -358,49 +317,30 @@
         <div class="progress-dot"></div>
         <div class="progress-dot"></div>
         <div class="progress-dot"></div>
-        <div class="progress-dot"></div>
-        <div class="progress-dot"></div>
     </div>
 
     <!-- Slide 1: Photo Introduction -->
     <div class="slide slide-1 active">
         <div class="content">
-            <img src="photo.jpg" alt="A Letter From Me">
+            <img src="/mnt/user-data/uploads/73574f4f-9fe8-4a22-90a1-d4f868d5539d.jpeg" alt="A Letter From Me">
             <h1>A Letter From Me to You</h1>
         </div>
     </div>
 
-    <!-- Slide 2: Opening Message -->
+    <!-- Slide 2: Breakfast Date -->
     <div class="slide slide-2 hidden">
-        <div class="content">
-            <h2>Musonda,<br>we've been talking for a week<br>and you already have me weak</h2>
-        </div>
-    </div>
-
-    <!-- Slide 3: Breakfast Date -->
-    <div class="slide slide-3 hidden">
         <div class="content">
             <h2 style="color: #db2777; font-size: 2.5rem; margin-bottom: 2rem; text-align: center;">I'd love to spend the day with you!</h2>
             <div class="card">
                 <div class="card-icon">🥞</div>
-                <h3>Breakfast Date</h3>
+                <h3>Breakfast Date @10am</h3>
                 <p>Start the morning with good food and even better company</p>
             </div>
         </div>
     </div>
 
-    <!-- Slide 4: Padel Adventure -->
-    <div class="slide slide-4 hidden">
-        <div class="card">
-            <div class="card-icon">🎾</div>
-            <h3>Padel Adventure</h3>
-            <p>Let's hit the court together</p>
-            <p class="card-note">(This is the only time I'll ever go back and forth with you 😘)</p>
-        </div>
-    </div>
-
-    <!-- Slide 5: The Question -->
-    <div class="slide slide-5 hidden">
+    <!-- Slide 3: The Question -->
+    <div class="slide slide-3 hidden">
         <div class="content">
             <div class="heart-icon">💝</div>
             <h2>Will You Be My Valentine?</h2>
@@ -411,8 +351,8 @@
         </div>
     </div>
 
-    <!-- Slide 6: The End -->
-    <div class="slide slide-6 hidden">
+    <!-- Slide 4: The End -->
+    <div class="slide slide-4 hidden">
         <div class="content">
             <h2>Yaay, it's a date! 🎉</h2>
             <p>✨ I can't wait to spend this Valentine's Day with you ✨</p>
@@ -505,7 +445,7 @@
 
         if (yesBtn) {
             yesBtn.addEventListener('click', () => {
-                currentSlide = 5; // Go to slide 6 (index 5)
+                currentSlide = 3; // Go to slide 4 (index 3)
                 showSlide(currentSlide);
                 setTimeout(startFireworks, 300);
             });
@@ -583,7 +523,7 @@
             }
 
             function createFirework(x, y) {
-                const colors = ['#ff0080', '#ff00ff', '#8000ff', '#0080ff', '#00ffff', '#00ff80', '#ffff00', '#ff8000'];
+                const colors = ['#ff0080', '#ff69b4', '#ffb6c1', '#ffc0cb', '#fff0f5', '#ec4899', '#db2777', '#ffffff'];
                 const particleCount = 50;
                 
                 for (let i = 0; i < particleCount; i++) {
@@ -593,7 +533,7 @@
             }
 
             function animate() {
-                ctx.fillStyle = 'rgba(255, 234, 167, 0.1)';
+                ctx.fillStyle = 'rgba(255, 224, 240, 0.1)';
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
                 particles.forEach((particle, index) => {
